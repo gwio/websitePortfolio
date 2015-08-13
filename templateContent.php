@@ -12,13 +12,13 @@ $cDir = 'content/' . $content . '/';
 <main>
   <div class="container">
 
-    <div class="row section blue">
+    <div class="row section grey">
 
            <?php include ("include/php/loadText.php"); ?>
 
     </div>
 
-    <div class="row yellow" id="masonry-grid">
+    <div class="row grey darken-2" id="masonry-grid">
 
 <!----------------------->
       <?php include ("include/php/loadImg.php"); ?>
