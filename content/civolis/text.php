@@ -1,6 +1,6 @@
 <?php
 $indexName = "civolis";
-$datum ="2014.07";
+$datum ="2014.07.22";
 $title = "Civolis";
 $sub = "2014, Typedesign, Font";
 $desc = "Civolis is a small and modest humanist sans family. Accompanied by a friendly italic, wide latin language support, oldstyle figures and ligatures, it is ready for a wide array of applications. Try the free Regular Cut!";

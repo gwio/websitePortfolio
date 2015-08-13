@@ -1,4 +1,4 @@
-# ignore bin folders’ contents, except data folder therein
+﻿# ignore bin folders’ contents, except data folder therein
 /bin/*
 !/bin/data/
 # Some general ignore patterns
@@ -65,3 +65,5 @@ Desktop.ini
 *.jpeg
 *.png
 *.pdf
+
+*.BridgeSort
