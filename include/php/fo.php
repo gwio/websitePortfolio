@@ -3,7 +3,7 @@
 
 <footer class="page-footer blue-grey darken-2">
   <div class="container grey-text text-lighten-4">
-    <h3><span class="thin">Hello, this portfolio ist still underway...</span></h3>
+    <h3><span class="thin">Hello, this portfolio is still underway...</span></h3>
 
 
     <div class="row">
