@@ -7,14 +7,16 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <title>Christian Gwiozda</title>
 
-  <!-----google material icons--->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="include/css/materialize.css"  media="screen,projection"/>
-  <!------own css--->
-  <link href="include/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <!-----fa-icons------------->
-  <link rel="stylesheet" href="include/fa/css/font-awesome.min.css">
+<?php
+  echo '<!-----google material icons--->';
+  echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
+  echo '<!--Import materialize.css-->';
+  echo '<link type="text/css" rel="stylesheet" href="' . $ROOT . 'include/css/materialize.css"  media="screen,projection"/>';
+  echo '<!------own css--->';
+  echo '<link href="' . $ROOT . 'include/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>';
+  echo '<!-----fa-icons------------->';
+  echo '<link rel="stylesheet" href="' . $ROOT . 'include/fa/css/font-awesome.min.css">';
+  ?>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 

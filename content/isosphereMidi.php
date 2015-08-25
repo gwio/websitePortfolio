@@ -1,10 +1,13 @@
 <?php
-$content = "mobyDickVis";
-$cDir = 'content/' . $content . '/';
+
+$ROOT = '../';
+
+$content = "isosphereMidi";
+$cDir = $content . '/';
 ?>
 <!----------------------------------------------------------------------------->
 
-<?php include ("include/php/hd.php"); ?>
+<?php include ($ROOT . "include/php/hd.php"); ?>
 
 <!----------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------->
@@ -14,15 +17,16 @@ $cDir = 'content/' . $content . '/';
 
     <div class="row section grey">
       <!----------------------->
-      <?php include ("include/php/loadText.php"); ?>
+
+      <?php include ($ROOT . "include/php/loadText.php"); ?>
       <!----------------------->
+
     </div>
 
     <div class="row grey darken-2" id="masonry-grid">
 
-
       <!----------------------->
-      <?php include ("include/php/loadImg.php"); ?>
+      <?php include ($ROOT . "include/php/loadImg.php"); ?>
       <!----------------------->
 
 
@@ -34,7 +38,7 @@ $cDir = 'content/' . $content . '/';
 
 <!----------------------------------------------------------------------------->
 
-<?php include ("include/php/fo.php"); ?>
+<?php include ($ROOT . "include/php/fo.php"); ?>
 
 <!----------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------->

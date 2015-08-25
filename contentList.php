@@ -21,7 +21,7 @@ foreach( $projects as $datum => $indexName ):
   include ('content/' . $indexName . '/text.php');
   //project card
   echo    '<div class="col s12 m6 l4">';
-  echo      '<a href="' . $indexName . '.php">';
+  echo      '<a href="content/' . $indexName . '.php">';
   echo        '<div class="card waves-effect">';
   echo          '<div class="card-image">';
   echo            '<img src="content/' . $indexName. '/title.png" class="responsive-img">';

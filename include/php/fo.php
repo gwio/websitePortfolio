@@ -24,17 +24,15 @@
   </div>
 </footer>
 
-<!----------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------->
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="include/js/materialize.min.js"></script>
-<script src="include/js/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.min.js"></script>
 
-<script src="include/js/init.js"></script>
+
+<!--Import jQuery before materialize.js-->
+<?php
+echo '<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>';
+echo '<script type="text/javascript" src="' . $ROOT . 'include/js/materialize.min.js"></script>';
+echo '<script src="' . $ROOT . 'include/js/masonry.pkgd.min.js"></script>';
+echo '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.min.js"></script>';
+echo '<script src="' . $ROOT . 'include/js/init.js"></script>';
+?>
 </body>
 </html>
-
-<!----------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------->
