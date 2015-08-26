@@ -3,7 +3,7 @@ $indexName = "binaryPatina";
 $datum ="2013.10.25";
 $year = substr($datum,0,4);
 $title = "Binary Patina";
-$sub = "Audiovisual, Projection, Live, Openframeworks";
+$tags = array("openframeworks", "code", "projection", "audio");
 $desc = 'Audiovisual realtime projection. Trier, Germany, 10/2013. Part of the "100 Jahre Paulusplatz" event at <href ="http://www.hochschule-trier.de" target="_blank">Hochschule Trier</a>';
 $links ='<a href="http://www.binarypatina.de/" target="_blank">Binary Patina</a><br><br>
 Music:<br> <a href="soundcloud.com/myom" target="_blank"> Myom</a><br>

@@ -3,7 +3,7 @@ $indexName = "voroTerrain";
 $datum ="2014.08.18";
 $year = substr($datum,0,4);
 $title = "Terrain Generation Sketches";
-$sub = "Openframeworks, Voronoi";
+$tags = array("code", "openframeworks", "voronoi", "simulation","generative");
 $desc = "Terrain generation sketches.";
 $links ='
 <a href="https://flic.kr/p/wzauu7" target="_blank">Flickr Album</a><br>

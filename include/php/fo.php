@@ -14,14 +14,16 @@
         <a class="btn-floating blue-grey waves-effect" href="https://www.flickr.com/photos/22285762@N07/albums"><i class="fa fa-flickr"></i></a>
         <a class="btn-floating blue-grey waves-effect" href="https://www.behance.net/furiosum"><i class="fa fa-behance"></i></a>
         <a class="btn-floating blue-grey waves-effect" href="https://www.pinterest.com/cgwiozda"><i class="fa fa-pinterest"></i></a>
-      </div>
+      </a>
+
     </div>
+  </div>
 
 
-  </div>
-  <div class="footer-copyright">
-    <div class="container">© 2015 Christian Gwiozda</div>
-  </div>
+</div>
+<div class="footer-copyright">
+  <div class="container">© 2015 Christian Gwiozda</div>
+</div>
 </footer>
 
 

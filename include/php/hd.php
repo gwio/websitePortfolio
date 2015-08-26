@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <title>Christian Gwiozda</title>
 
-<?php
+  <?php
   echo '<!-----google material icons--->';
   echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
   echo '<!--Import materialize.css-->';
@@ -25,19 +25,41 @@
 <body>
 
   <!----------------------------------------------------------------------------->
+
+
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown" class="dropdown-content">
+    <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
+    <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
+    <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
+    <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
+    <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
+    <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
+  </ul>
+  <!-- Dropdown Structure -->
+
+
   <nav class="blue-grey darken-4">
     <div class="nav-wrapper container">
       <div class=" row">
         <div class="col s12 ">
-          <a href="#" class="brand-logo">Christian Gwiozda</a>
+          <a href="<?=$ROOT?>index.php" class="brand-logo">Christian Gwiozda</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="http://www.gwiozda.net">Projects</a></li>
+            <li><a class='dropdown-button' data-constrainwidth="false" data-beloworigin="true" href="#!" data-activates='dropdown'>sort<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="mailto:christian@gwiozda.net">Contact</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="http://www.gwiozda.net">Projects</a></li>
+            <li><a href="<?=$ROOT?>index.php">Christian Gwiozda</a></li>
             <li><a href="mailto:christian@gwiozda.net">Contact</a></li>
+            <li class="divider"></li>
+            <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
+            <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
+            <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
+            <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
+            <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
+            <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
           </ul>
         </div>
       </div>

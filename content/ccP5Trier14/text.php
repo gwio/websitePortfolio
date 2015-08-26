@@ -3,7 +3,7 @@ $indexName = "ccP5Trier14";
 $datum ="2014.07.07";
 $year = substr($datum,0,4);
 $title = "Creative Coding, Course";
-$sub = "Lecture, Hochschule Trier, Processing";
+$tags = array("processing", "education", "lecture", "hochschule trier","code");
 $desc = "Teaching Creative coding with Processing 2013-2014 at Hochschule Trier";
 $links ='Course material (german), winter on<a href="https://github.com/gwio/ccProcessingTrierWinter2013" target="_blank"> Github</a><br>
 Course material (german), summer on<a href="https://github.com/gwio/ccProcessingTrierWinter2014" target="_blank"> Github</a><br>
