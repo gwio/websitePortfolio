@@ -2,9 +2,9 @@
 $indexName = "civolis";
 $datum ="2014.07.22";
 $year = substr($datum,0,4);
-$title = "Civolis";
-$tags = array("typography", "font", "myfonts", "typedesign");
-$desc = "Civolis is a small and modest humanist sans family. Accompanied by a friendly italic, wide latin language support, oldstyle figures and ligatures, it is ready for a wide array of applications. Try the free Regular Cut!";
-$links ='Civolis is available on <a href="http://www.myfonts.com/fonts/furiosum/civolis/" target="_blank">MyFonts</a>';
-
+$title = "Civolis Font";
+$tags = array("typography", "font","typedesign");
+$desc = 'Civolis is small humanist-sans type family. More information an a free cut are available on <a href="http://www.myfonts.com/fonts/furiosum/civolis/" target="_blank" title="Civolis on MyFonts">MyFonts</a>.';
+$links ='<a href="http://www.myfonts.com/fonts/furiosum/civolis/" target="_blank" title="Civolis on MyFonts">Civolis on MyFonts</a><br>
+<a href="civolis/specimen_civolis.pdf" target="_blank" title="Civolis Specimen (PDF)">Specimen PDF</a>';
 ?>
