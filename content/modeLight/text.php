@@ -2,8 +2,8 @@
 $indexName = "modeLight";
 $datum ="2013.10.25";
 $year = substr($datum,0,4);
-$title = "Fashion projection mapping";
+$title = "Mapping for Fashion";
 $tags = array("openframeworks", "opencv", "projection", "realtime","code");
-$desc = 'Realization of realtime projection mapping on fashion designs. Project at Hochschule Trier.<br> Photos from ...';
+$desc = 'Realtime projection mapping for a fashion design <a href="http://blog.modedesign-trier.de/?p=2727" title="Fashion Design Workshop" target="_blank">workshop</a> at Hochschule Trier. Images and designs are created by the participating students.';
 $links ='';
 ?>
