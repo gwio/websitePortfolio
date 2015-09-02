@@ -35,16 +35,31 @@ foreach( $projects as $datum => $indexName ):
   include ($ROOT . 'content/' . $indexName . '/text.php');
   //project card
   echo    '<div class="col s12 m6 l4">';
+
   echo      '<a href="' . $ROOT . 'content/' . $indexName . '.php">';
-  echo        '<div class="card waves-effect">';
-  echo          '<div class="card-image">';
+  echo        '<div class="card  grey lighten-5 fade">';
+  echo          '<div class="card-image ">';
   echo            '<img src="'. $ROOT .'content/' . $indexName. '/title.png" class="responsive-img">';
   echo          '</div>';
-  echo          '<div class="card-content">';
-  echo            $title;
+  echo          '<div class="card-content safari-flicker">';
+  echo           '<p class="truncate " id="oben">' . $title . '</p>';
+  sort           ($tags);
+
+                 $arrlength=count($tags);
+  echo           '<p class="medium truncate" id="unten"><em><small>';
+                 for($x=0;$x<$arrlength;$x++) {
+                   if ($x !== $arrlength-1 ) {
+                     echo  $tags[$x] . ', ';
+                   } else {
+                     echo  $tags[$x] ;
+                  }
+                 }
+                 echo '</small></em></p><br>';
+
   echo          '</div>';
   echo        '</div>';
   echo      '</a>';
+
   echo     '</div>';
 
 endforeach;

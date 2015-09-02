@@ -34,13 +34,14 @@
     <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
     <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
     <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
+    <li><a href="<?=$ROOT?>sort/photography.php">photography</a></li>
     <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
     <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
   </ul>
   <!-- Dropdown Structure -->
 
 
-  <nav class="blue-grey darken-4">
+  <nav class="grey lighten-3">
     <div class="nav-wrapper container">
       <div class=" row">
         <div class="col s12 ">
@@ -58,6 +59,7 @@
             <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
             <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
             <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
+            <li><a href="<?=$ROOT?>sort/photography.php">photography</a></li>
             <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
             <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
           </ul>

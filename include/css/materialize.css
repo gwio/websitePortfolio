@@ -1659,7 +1659,9 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0;
+background: #fafafa;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -5022,7 +5024,7 @@ span.badge {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1480px;
   width: 90%; }
 
 @media only screen and (min-width : 601px) {
@@ -5031,7 +5033,7 @@ span.badge {
 
 @media only screen and (min-width : 993px) {
   .container {
-    width: 70%; } }
+    width: 85%; } }
 
 .container .row {
   margin-left: -0.75rem;
@@ -5441,7 +5443,7 @@ em {
   font-style: italic; }
 
 strong {
-  font-weight: 500; }
+  font-weight: 700; }
 
 small {
   font-size: 75%; }
@@ -5452,71 +5454,74 @@ small {
 .thin {
   font-weight: 200; }
 
+  .medium {
+    font-weight: 500; }
+
 .flow-text {
   font-weight: 300; }
   @media only screen and (min-width: 360px) {
     .flow-text {
-      font-size: 1.2rem; } }
+      font-size: 0.9rem; } }
   @media only screen and (min-width: 390px) {
     .flow-text {
-      font-size: 1.224rem; } }
+      font-size: 1.104rem; } }
   @media only screen and (min-width: 420px) {
     .flow-text {
-      font-size: 1.248rem; } }
+      font-size: 1.128rem; } }
   @media only screen and (min-width: 450px) {
     .flow-text {
-      font-size: 1.272rem; } }
+      font-size: 1.152rem; } }
   @media only screen and (min-width: 480px) {
     .flow-text {
-      font-size: 1.296rem; } }
+      font-size: 1.186rem; } }
   @media only screen and (min-width: 510px) {
     .flow-text {
-      font-size: 1.32rem; } }
+      font-size: 1.2rem; } }
   @media only screen and (min-width: 540px) {
     .flow-text {
-      font-size: 1.344rem; } }
+      font-size: 1.224rem; } }
   @media only screen and (min-width: 570px) {
     .flow-text {
-      font-size: 1.368rem; } }
+      font-size: 1.248rem; } }
   @media only screen and (min-width: 600px) {
     .flow-text {
-      font-size: 1.392rem; } }
+      font-size: 1.272rem; } }
   @media only screen and (min-width: 630px) {
     .flow-text {
-      font-size: 1.416rem; } }
+      font-size: 1.296rem; } }
   @media only screen and (min-width: 660px) {
     .flow-text {
-      font-size: 1.44rem; } }
+      font-size: 1.32rem; } }
   @media only screen and (min-width: 690px) {
     .flow-text {
-      font-size: 1.464rem; } }
+      font-size: 1.344rem; } }
   @media only screen and (min-width: 720px) {
     .flow-text {
-      font-size: 1.488rem; } }
+      font-size: 1.368rem; } }
   @media only screen and (min-width: 750px) {
     .flow-text {
-      font-size: 1.512rem; } }
+      font-size: 1.392rem; } }
   @media only screen and (min-width: 780px) {
     .flow-text {
-      font-size: 1.536rem; } }
+      font-size: 1.416rem; } }
   @media only screen and (min-width: 810px) {
     .flow-text {
-      font-size: 1.56rem; } }
+      font-size: 1.44rem; } }
   @media only screen and (min-width: 840px) {
     .flow-text {
-      font-size: 1.584rem; } }
+      font-size: 1.464rem; } }
   @media only screen and (min-width: 870px) {
     .flow-text {
-      font-size: 1.608rem; } }
+      font-size: 1.498rem; } }
   @media only screen and (min-width: 900px) {
     .flow-text {
-      font-size: 1.632rem; } }
+      font-size: 1.512rem; } }
   @media only screen and (min-width: 930px) {
     .flow-text {
-      font-size: 1.656rem; } }
+      font-size: 1.536rem; } }
   @media only screen and (min-width: 960px) {
     .flow-text {
-      font-size: 1.68rem; } }
+      font-size: 1.56rem; } }
   @media only screen and (max-width: 360px) {
     .flow-text {
       font-size: 1.2rem; } }
@@ -5525,7 +5530,6 @@ small {
   transition: box-shadow .25s;
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
-  border-radius: 2px;
   background-color: #fff; }
 
 .card {
@@ -5533,8 +5537,7 @@ small {
   overflow: hidden;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
-  transition: box-shadow .25s;
-  border-radius: 2px; }
+  transition: box-shadow .25s;}
   .card .card-title {
     color: #fff;
     font-size: 24px;
@@ -5573,7 +5576,6 @@ small {
   .card .card-image {
     position: relative; }
     .card .card-image img {
-      border-radius: 2px 2px 0 0;
       position: relative;
       left: 0;
       right: 0;
@@ -5586,11 +5588,9 @@ small {
       left: 0;
       padding: 20px; }
   .card .card-content {
-    padding: 20px;
-    border-radius: 0 0 2px 2px; }
+    padding: 6px 6px 6px 16px; }
     .card .card-content p {
-      margin: 0;
-      color: inherit; }
+      margin: 0;}
     .card .card-content .card-title {
       line-height: 48px; }
   .card .card-action {
