@@ -5,15 +5,7 @@
 
     $(".dropdown-button").dropdown();
 
-    // Floating-Fixed table of contents
-    if ($('nav').length) {
-      $('.pin-wrapper').pushpin({ top: $('nav').height() });
-    }
-
-    else {
-      $('.pin-wrapper').pushpin({ top: 0 });
-    }
-    
+  
 
     var $container = $('#masonry-grid');
 

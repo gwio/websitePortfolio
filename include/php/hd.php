@@ -41,31 +41,50 @@
   <!-- Dropdown Structure -->
 
 
-  <nav class="grey lighten-3">
-    <div class="nav-wrapper container">
-      <div class=" row">
-        <div class="col s12 ">
-          <a href="<?=$ROOT?>index.php" class="brand-logo">Christian Gwiozda</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class='dropdown-button' data-constrainwidth="false" data-beloworigin="true" href="#!" data-activates='dropdown'>sort<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="mailto:christian@gwiozda.net">Contact</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="<?=$ROOT?>index.php">Christian Gwiozda</a></li>
-            <li><a href="mailto:christian@gwiozda.net">Contact</a></li>
-            <li class="divider"></li>
-            <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
-            <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
-            <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
-            <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
-            <li><a href="<?=$ROOT?>sort/photography.php">photography</a></li>
-            <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
-            <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
-          </ul>
+
+  <div class="container headerFix ">
+
+    <div class="headerFix row valign-wrapper" style="line-height: 38px">
+
+
+
+
+      <div class="col s12 left-align">
+
+        <a  href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only navButton"><i class="fa fa-reorder"></i></a>
+
+        <div class="brandtext">
+          <a href="<?=$ROOT?>index.php">Christian Gwiozda</a>
         </div>
+
+        <div class="headerNav hide-on-med-and-down">
+
+          <span><a class='dropdown-button' data-constrainwidth="false" data-beloworigin="true" href="#!" data-activates='dropdown'><i class="fa fa-chevron-down"></i></a></span>
+          <a href="mailto:christian@gwiozda.net">contact</a>
+        </div>
+
       </div>
+
     </div>
-  </nav>
+
+
+
+
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="mailto:christian@gwiozda.net">Contact</a></li>
+      <li class="divider"></li>
+      <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
+      <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
+      <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
+      <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
+      <li><a href="<?=$ROOT?>sort/photography.php">photography</a></li>
+      <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
+      <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
+    </ul>
+
+  </div>
+
+
+
 
   <!----------------------------------------------------------------------------->

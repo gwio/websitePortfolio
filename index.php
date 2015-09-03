@@ -14,6 +14,7 @@ include ("include/php/hd.php");
 
     <div class="row section">
       <div class="col s12" >
+
         <div class="row" id="masonry-grid" >
 
           <!----------------------------------------------------------------------------->

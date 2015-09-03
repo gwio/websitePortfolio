@@ -31,8 +31,8 @@ echo $links;
 
 echo '</small></p>';
 
-echo '</div>';
 
+echo '</div>';
 echo '</div>';
 
 ?>

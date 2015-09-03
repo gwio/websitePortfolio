@@ -15,15 +15,15 @@ $cDir = $content . '/';
 <main>
   <div class="container">
 
-    <div class="row section grey">
-      <!----------------------->
 
-      <?php include ($ROOT . "include/php/loadText.php"); ?>
-      <!----------------------->
+    <!----------------------->
 
-    </div>
+    <?php include ($ROOT . "include/php/loadText.php"); ?>
+    <!----------------------->
 
-    <div class="row grey darken-2" id="masonry-grid">
+
+
+    <div class="row center-align" id="masonry-grid">
 
       <div class="col s12 m12 l8 offset-l2">
         <div class="video-container card">

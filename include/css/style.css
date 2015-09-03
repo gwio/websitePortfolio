@@ -15,7 +15,95 @@ body {
 main {
   flex: 1 0 auto;
 }
+p {
+  color:#212121;
+}
 
+
+.btn-floating {
+  color: #bdbdbd;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  background-color: #bdbdbd;
+}
+
+.btn-floating i {
+  color: #fafafa;
+  font-size: 0.9rem;
+  line-height: 26px;
+}
+
+.btn-floating:hover {
+  background-color: #d32f2f ;
+}
+
+
+
+@media only screen and (min-width : 993px) {
+  .headerFix{
+    height: 200px;
+  }
+
+  .brandtext{
+    position: relative;
+    top:20px;
+    font-weight: 700;
+    font-size:  1.55rem;
+
+  }
+
+  .headerNav{
+    display: inline;
+    position: relative;
+    top:20px;
+    word-spacing: 15px;
+    font-size: 1.0rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .headerFix{
+    height: 200px;
+  }
+
+  .brandtext{
+    position: relative;
+    top:20px;
+    font-weight: 700;
+    font-size:  1.55rem;
+
+  }
+
+  .navButton{
+    position: relative;
+    top:10px;
+    font-size: 2rem;
+  }
+}
+
+
+
+a {
+  color:#bdbdbd;
+
+  transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+}
+
+.brandtext a {
+  color:#212121;
+}
+
+a:hover {
+  color: #d32f2f  ;
+
+}
 
 .fade img {
   opacity: 1.0.;
