@@ -14,7 +14,7 @@ include ($ROOT . "include/php/hd.php");
 
     <div class="row section">
       <div class="col s12" >
-        <div class="row  grey darken-1" id="masonry-grid">
+        <div class="row" id="masonry-grid">
 
           <!----------------------------------------------------------------------------->
 
