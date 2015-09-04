@@ -23,14 +23,16 @@ $cDir = $content . '/';
 
 
 
+    <div class="row">
+        <div class="col s12 m12 l8 section no-pad-top">
+          <div class="video-container z-depth-1">
+            <iframe src="https://player.vimeo.com/video/135471354"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+
     <div class="row center-align" id="masonry-grid">
 
-
-      <div class="col s12 m12 l8 offset-l2">
-        <div class="video-container card">
-          <iframe src="https://player.vimeo.com/video/135471354"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-      </div>
 
       <!----------------------->
       <?php include ($ROOT . "include/php/loadImg.php"); ?>

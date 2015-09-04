@@ -5824,20 +5824,17 @@ position:absolute;
     .dropdown-content li:hover, .dropdown-content li.active {
     color: #d32f2f; }
     .dropdown-content li , .dropdown-content li > span {
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       color: #9e9e9e;
       font-weight: 700;
       text-align: left;
-      font-size: 15px;
-
       display: block;
      }
      .dropdown-content a{
-       font-size: 1.2rem;
-       color: #212121;
-       font-weight: 500;
+       font-size: 1.0rem;
+       color: #9e9e9e;
+       font-weight: 700;
        text-align: left;
-       font-size: 15px;
        display: block;
    padding: 1rem 2rem 1rem 1rem;
        transition: color 0.25s ease-in-out;
@@ -6926,12 +6923,10 @@ select {
     padding: 0 15px; }
 
   .side-nav a {
-    color: #212121;
+    color: #9e9e9e;
     display: block;
-    font-size: 15px;
-    font-weight: 500;
-    height: 64px;
-    line-height: 64px;
+    font-size: 1.0rem;
+    font-weight: 700;
      padding: 1rem 2rem 1rem 1rem; }
 
 .drag-target {

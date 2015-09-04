@@ -42,11 +42,11 @@ foreach( $projects as $datum => $indexName ):
   echo            '<img src="'. $ROOT .'content/' . $indexName. '/title.png" class="responsive-img">';
   echo          '</div>';
   echo          '<div class="card-content safari-flicker">';
-  echo           '<p class="truncate medium" id="oben">' . $title . '</p>';
+  echo           '<p class="truncate boxTitle" id="oben">' . $title . '</p>';
   sort           ($tags);
 
                  $arrlength=count($tags);
-  echo           '<p class="medium truncate" id="unten"><em><small>';
+  echo           '<p class="tagStyle truncate" id="unten">';
                  for($x=0;$x<$arrlength;$x++) {
                    if ($x !== $arrlength-1 ) {
                      echo  $tags[$x] . ', ';
@@ -54,7 +54,7 @@ foreach( $projects as $datum => $indexName ):
                      echo  $tags[$x] ;
                   }
                  }
-                 echo '</small></em></p>';
+                 echo '</p>';
 
   echo          '</div>';
   echo        '</div>';

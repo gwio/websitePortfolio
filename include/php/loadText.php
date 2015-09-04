@@ -4,13 +4,14 @@ include ($cDir . 'text.php');
 
 
 echo '<div class="row">';
-echo '<div class="col s12 m12 l8 offset-l2">';
-echo '<h4><span class="medium grey-text text-darken-4">' . $title . '</span></h4>';
+echo '<div class="col s12 m12 l8">';
+echo '<h4><span class="descTitle grey-text text-darken-4">' . $title . '</span></h4>';
 
 
+echo '<p class="grey-text text-darken-4 descText">' . $desc . '</p>';
 
 
-echo '<p class="medium grey-text"><em><small>';
+echo '<p class="tagStyle">';
 sort($tags);
 $arrlength=count($tags);
 for($x=0;$x<$arrlength;$x++)
@@ -21,15 +22,12 @@ for($x=0;$x<$arrlength;$x++)
     echo  $tags[$x] ;
   }
 }
-echo '</em></small></p>';
+echo '</p>';
 
-
-echo '<p class="grey-text text-darken-2 flow-text">' . $desc . '</p>';
-
-echo '<p class="medium"><small>';
+echo '<p>';
 echo $links;
 
-echo '</small></p>';
+echo '</p>';
 
 
 echo '</div>';

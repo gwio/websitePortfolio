@@ -5,7 +5,7 @@
 
 
   <div class="container">
-    <div class="row center-align">
+    <div class="row left-align">
       <div class="col s12">
 
 <br>
@@ -20,7 +20,7 @@
     </div>
 
     <div class="row">
-      <div class="grey-text medium col s12 center-align">
+      <div class="grey-text medium col s12 left-align">
   <small>© 2015 Christian Gwiozda</small>
       </div>
 

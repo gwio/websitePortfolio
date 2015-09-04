@@ -30,6 +30,8 @@
 
   <!-- Dropdown Structure -->
   <ul id="dropdown" class="dropdown-content">
+    <li><a href="<?=$ROOT?>index.php">all</a></li>
+    <li class="divider"></li>
     <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
     <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
     <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
@@ -59,7 +61,7 @@
 
         <div class="headerNav hide-on-med-and-down">
 
-          <span><a class='dropdown-button' data-constrainwidth="false" data-beloworigin="true" href="#!" data-activates='dropdown'><i class="fa fa-chevron-down"></i></a></span>
+          <span><a class='dropdown-button' data-constrainwidth="false" data-beloworigin="false" href="#!" data-activates='dropdown'><i class="fa fa-chevron-down"></i> projects</a></span>
           <a href="mailto:christian@gwiozda.net">contact</a>
         </div>
 
