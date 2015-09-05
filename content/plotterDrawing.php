@@ -22,14 +22,14 @@ $cDir = $content . '/';
     <!----------------------->
 
     <div class="row">
-        <div class="col s12 m12 l8 section no-pad-top">
+        <div  class="col section no-pad-top" style="width:100%; max-width:1023px;">
           <div class="video-container z-depth-1">
             <iframe src="https://player.vimeo.com/video/31036094"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
         </div>
     </div>
 
-    <div class="row center-align" id="masonry-grid">
+    <div class="row left-align" id="masonry-grid">
 
 
       <!----------------------->

@@ -25,7 +25,7 @@
 <body>
 
   <!----------------------------------------------------------------------------->
-
+  
 
 
   <!-- Dropdown Structure -->
@@ -53,11 +53,10 @@
 
       <div class="col s12 left-align">
 
-        <a  href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only navButton"><i class="fa fa-reorder"></i></a>
-
         <div class="brandtext">
           <a href="<?=$ROOT?>index.php">Christian Gwiozda</a>
         </div>
+        <a  href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only navButton"><i class="fa fa-reorder"></i></a>
 
         <div class="headerNav hide-on-med-and-down">
 

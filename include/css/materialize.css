@@ -2029,7 +2029,7 @@ ul {
 .divider {
   height: 1px;
   overflow: hidden;
-  background-color: #9e9e9e; }
+  background-color: #e0e0e0; }
 
 blockquote {
   margin: 20px 0;
@@ -2362,7 +2362,7 @@ span.badge {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 53%;
   padding-top: 30px;
   height: 0;
   overflow: hidden; }
@@ -5522,7 +5522,7 @@ small {
       left: 0;
       padding: 20px; }
   .card .card-content {
-    padding: 6px 6px 6px 16px; }
+    padding: 4px 6px 10px 20px; }
     .card .card-content p {
       margin: 0;}
     .card .card-content .card-title {

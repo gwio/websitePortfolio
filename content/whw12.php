@@ -21,7 +21,7 @@ $cDir = $content . '/';
     <!----------------------->
 
 
-    <div class="row center-align" id="masonry-grid">
+    <div class="row left-align" id="masonry-grid">
 
       <!----------------------->
       <?php include ($ROOT . "include/php/loadImg.php"); ?>
