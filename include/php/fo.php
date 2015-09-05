@@ -36,10 +36,10 @@
 
 <!--Import jQuery before materialize.js-->
 <?php
-echo '<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>';
-echo '<script type="text/javascript" src="' . $ROOT . 'include/js/materialize.min.js"></script>';
+echo '<script src="' . $ROOT . 'include/js/jquery-2.1.1.min.js"></script>';
+echo '<script src="' . $ROOT . 'include/js/materialize.min.js"></script>';
 echo '<script src="' . $ROOT . 'include/js/masonry.pkgd.min.js"></script>';
-echo '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.min.js"></script>';
+echo '<script src="' . $ROOT . 'include/js/imagesloaded.min.js"></script>';
 echo '<script src="' . $ROOT . 'include/js/init.js"></script>';
 ?>
 </body>

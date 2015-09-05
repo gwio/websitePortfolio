@@ -1,6 +1,6 @@
 <?php
 $indexName = "modeLight";
-$datum ="2013.10.25";
+$datum ="2013.10.24";
 $year = substr($datum,0,4);
 $title = "Mapping for Fashion";
 $tags = array("openframeworks", "opencv", "projection", "realtime","code");

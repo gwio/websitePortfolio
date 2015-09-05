@@ -25,7 +25,7 @@
 <body>
 
   <!----------------------------------------------------------------------------->
-  
+
 
 
   <!-- Dropdown Structure -->
@@ -72,7 +72,7 @@
 
 
     <ul class="side-nav" id="mobile-demo">
-      <li><a href="mailto:christian@gwiozda.net">Contact</a></li>
+      <li><a href="mailto:christian@gwiozda.net">contact</a></li>
       <li class="divider"></li>
       <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
       <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
