@@ -8,28 +8,28 @@
     <div class="row left-align">
       <div class="col s12">
 
-<br>
-          <a class="btn-floating waves-effect" href="https://vimeo.com/gwio"><i class="fa fa-vimeo"></i></a>
-          <a class="btn-floating waves-effect" href="https://twitter.com/chris_gwio"><i class="fa fa-twitter"></i></a>
-          <a class="btn-floating  waves-effect" href="https://github.com/gwio"><i class="fa fa-github-alt"></i></a>
-          <a class="btn-floating  waves-effect" href="https://www.flickr.com/photos/22285762@N07/albums"><i class="fa fa-flickr"></i></a>
-          <a class="btn-floating waves-effect" href="https://www.behance.net/furiosum"><i class="fa fa-behance"></i></a>
-          <a class="btn-floating  waves-effect" href="https://www.pinterest.com/cgwiozda"><i class="fa fa-pinterest"></i></a>
+        <br>
+        <a class="btn-floating waves-effect" href="https://vimeo.com/gwio" target="_blank"><i class="fa fa-vimeo" title="Vimeo"></i></a>
+        <a class="btn-floating waves-effect" href="https://twitter.com/chris_gwio" target="_blank"><i class="fa fa-twitter" title="Twitter"></i></a>
+        <a class="btn-floating  waves-effect" href="https://github.com/gwio" target="_blank"><i class="fa fa-github-alt" title="Github"></i></a>
+        <a class="btn-floating  waves-effect" href="https://www.flickr.com/photos/22285762@N07/albums" target="_blank" title="Flickr"><i class="fa fa-flickr"></i></a>
+        <a class="btn-floating waves-effect" href="https://www.behance.net/furiosum" target="_blank" title="Behance"><i class="fa fa-behance"></i></a>
+        <a class="btn-floating  waves-effect" href="https://www.pinterest.com/cgwiozda" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a>
 
       </div>
     </div>
 
     <div class="row">
       <div class="grey-text medium col s12 left-align">
-  <small>© 2015 Christian Gwiozda</small>
+        <small>© 2015 Christian Gwiozda</small>
       </div>
 
 
 
 
 
+    </div>
   </div>
-</div>
 </footer>
 
 

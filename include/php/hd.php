@@ -25,7 +25,7 @@
 <body>
 
   <!----------------------------------------------------------------------------->
-
+<?php include_once($ROOT . 'include/php/analyticstracking.php') ?>
 
 
   <!-- Dropdown Structure -->
