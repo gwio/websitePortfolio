@@ -23,15 +23,11 @@
   ?>
 
 
-  
-
   <?php
-  echo '<!-----google material icons--->';
-  echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
   echo '<!--Import materialize.css-->';
-  echo '<link type="text/css" rel="stylesheet" href="' . $ROOT . 'include/css/materialize.css"  media="screen,projection"/>';
+  echo '<link type="text/css" rel="stylesheet" href="' . $ROOT . 'include/css/materialize.min.css"  media="screen,projection"/>';
   echo '<!------own css--->';
-  echo '<link href="' . $ROOT . 'include/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>';
+  echo '<link href="' . $ROOT . 'include/css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>';
   echo '<!-----fa-icons------------->';
   echo '<link rel="stylesheet" href="' . $ROOT . 'include/fa/css/font-awesome.min.css">';
   ?>
