@@ -19,15 +19,15 @@
   ?>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <?php include_once($ROOT . 'include/php/analyticstracking.php') ?>
 </head>
 
-<body>
+<body class="flexbox-wrapper">
 
   <!----------------------------------------------------------------------------->
-<?php include_once($ROOT . 'include/php/analyticstracking.php') ?>
 
 
+<header>
   <!-- Dropdown Structure -->
   <ul id="dropdown" class="dropdown-content">
     <li><a href="<?=$ROOT?>index.php">all</a></li>
@@ -86,6 +86,6 @@
   </div>
 
 
-
+</header>
 
   <!----------------------------------------------------------------------------->
