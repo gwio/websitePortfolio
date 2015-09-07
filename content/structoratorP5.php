@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "structoratorP5";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

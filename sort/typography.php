@@ -2,8 +2,8 @@
 
 <?php
 $ROOT = "../";
-
-include ($ROOT . "include/php/hd.php");
+$myTag = "typography";
+include($ROOT . "include/php/hd.php");
 ?>
 
 <!----------------------------------------------------------------------------->
@@ -19,7 +19,6 @@ include ($ROOT . "include/php/hd.php");
           <!----------------------------------------------------------------------------->
 
           <?php
-          $myTag = "typography";
           include ($ROOT . "include/php/contentList.php");
           ?>
 

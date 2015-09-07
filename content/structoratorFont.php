@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "structoratorFont";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

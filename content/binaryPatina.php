@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "binaryPatina";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

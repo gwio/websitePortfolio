@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "plotterDrawing";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

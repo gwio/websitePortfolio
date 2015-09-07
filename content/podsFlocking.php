@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "podsFlocking";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

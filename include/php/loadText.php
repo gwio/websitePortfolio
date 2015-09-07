@@ -1,6 +1,6 @@
 <?php
 
-include ($cDir . 'text.php');
+include_once($cDir . 'text.php');
 
 
 echo '<div class="row">';

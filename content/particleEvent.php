@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "particleEvent";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

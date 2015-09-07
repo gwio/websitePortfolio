@@ -39,7 +39,7 @@ foreach( $projects as $datum => $indexName ):
   echo      '<a href="' . $ROOT . 'content/' . $indexName . '.php">';
   echo        '<div class="card  grey lighten-5 fade">';
   echo          '<div class="card-image ">';
-  echo            '<img src="'. $ROOT .'content/' . $indexName. '/title.png" class="responsive-img">';
+  echo            '<img src="'. $ROOT .'content/' . $indexName. '/title.png" alt="' . $title . '" class="responsive-img">';
   echo          '</div>';
   echo          '<div class="card-content safari-flicker">';
   echo           '<p class="truncate boxTitle" id="oben">' . $title . '</p>';

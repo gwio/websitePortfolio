@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "mobyDickVis";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 

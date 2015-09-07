@@ -4,6 +4,7 @@ $ROOT = '../';
 
 $content = "voroTerrain";
 $cDir = $content . '/';
+include_once($cDir . 'text.php');
 ?>
 <!----------------------------------------------------------------------------->
 
