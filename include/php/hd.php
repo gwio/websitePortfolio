@@ -46,30 +46,24 @@
     <ul id="dropdown" class="dropdown-content">
       <li><a href="<?=$ROOT?>index.php">all</a></li>
       <li class="divider"></li>
-      <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
       <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
       <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
       <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
       <li><a href="<?=$ROOT?>sort/photography.php">photography</a></li>
       <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
+      <li><a href="<?=$ROOT?>sort/sound.php">sound</a></li>
       <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
     </ul>
     <!-- Dropdown Structure -->
 
-
-
     <div class="container headerFix">
-
       <div class="headerFix row valign-wrapper" style="line-height: 38px">
 
-
-
-
         <div class="col s12 left-align">
-
           <div class="brandtext">
             <a href="<?=$ROOT?>index.php">Christian Gwiozda</a>
           </div>
+
           <a  href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only navButton"><i class="fa fa-reorder"></i></a>
 
           <div class="headerNav hide-on-med-and-down">
@@ -86,26 +80,23 @@
                 ?>
               </a>
             </span>
-
+            <a href="<?=$ROOT?>about.php">about</a>
             <a href="mailto:christian@gwiozda.net">contact</a>
           </div>
-
         </div>
-
       </div>
 
 
-
-
       <ul class="side-nav" id="mobile-demo">
+        <li><a href="<?=$ROOT?>about.php">about</a></li>
         <li><a href="mailto:christian@gwiozda.net">contact</a></li>
         <li class="divider"></li>
-        <li><a href="<?=$ROOT?>sort/audio.php">audio</a></li>
         <li><a href="<?=$ROOT?>sort/code.php">code</a></li>
         <li><a href="<?=$ROOT?>sort/education.php">education</a></li>
         <li><a href="<?=$ROOT?>sort/openframeworks.php">openframeworks</a></li>
         <li><a href="<?=$ROOT?>sort/photography.php">photography</a></li>
         <li><a href="<?=$ROOT?>sort/processing.php">processing</a></li>
+        <li><a href="<?=$ROOT?>sort/sound.php">sound</a></li>
         <li><a href="<?=$ROOT?>sort/typography.php">typography</a></li>
       </ul>
 

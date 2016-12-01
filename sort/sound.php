@@ -2,7 +2,7 @@
 
 <?php
 $ROOT = "../";
-$myTag = "audio";
+$myTag = "sound";
 include($ROOT . "include/php/hd.php");
 ?>
 
