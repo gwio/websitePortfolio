@@ -23,7 +23,7 @@
 
     <div class="row">
       <div class="grey-text medium col s12 left-align">
-        <small>© 2015 Christian Gwiozda</small>
+        <small>© 2017 Christian Gwiozda</small>
       </div>
 
 
