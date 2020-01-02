@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <title>
     <?php
-    if(!$title){
+    if(!isset($title)){
       echo 'Christian Gwiozda / ' .$myTag;
     } else {
       echo 'Christian Gwiozda / ' .$title;
@@ -15,7 +15,16 @@
     ?>
   </title>
   <?php
-  if(!$title){
+echo '<link rel="apple-touch-icon" sizes="180x180" href="'. $ROOT .'fav/apple-touch-icon.png">';
+echo '<link rel="icon" type="image/png" sizes="32x32" href="'. $ROOT .'fav/favicon-32x32.png">';
+echo '<link rel="icon" type="image/png" sizes="16x16" href="'. $ROOT .'fav/favicon-16x16.png">';
+echo '<link rel="manifest" href="'. $ROOT .'fav/site.webmanifest">';
+echo '<link rel="mask-icon" href="'. $ROOT .'fav/safari-pinned-tab.svg" color="#5bbad5">';
+echo '<meta name="msapplication-TileColor" content="#2b5797">';
+echo '<meta name="theme-color" content="#ffffff">';
+?>
+  <?php
+  if(!isset($title)){
     echo '<meta name="description" content="Christian Gwiozda - ' .$myTag. '">';
   } else {
     echo '<meta name="description" content="Christian Gwiozda - ' .$title. '">';
@@ -72,7 +81,7 @@
               <a class='dropdown-button' data-constrainwidth="false" data-beloworigin="false" href="#!" data-activates='dropdown'>
                 <i class="fa fa-chevron-down"></i>
                 <?php
-                if ($myTag) {
+                if (isset($myTag)) {
                   echo' '. $myTag;
                 } else {
                   echo ' projects';

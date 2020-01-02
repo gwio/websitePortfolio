@@ -6,6 +6,9 @@
 * Made By MaterializeCSS.com
 */
 
+:root {
+  --col_theme: #de2900;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
@@ -134,7 +137,7 @@ p {
 }
 
 .btn-floating:hover {
-  background-color: #d32f2f ;
+  background-color: var(--col_theme);
 }
 
 
@@ -198,7 +201,7 @@ a {
 }
 
 a:hover {
-  color: #d32f2f  ;
+  color: var(--col_theme);
 
 }
 
@@ -222,7 +225,7 @@ a:hover {
 }
 
 .fade:hover #oben{
-  color: #d32f2f  ;
+  color: var(--col_theme);
 }
 
 .fade #unten{
